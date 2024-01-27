@@ -1,0 +1,9 @@
+[submodule "chapter3"]
+	path = chapter3
+	url = https://github.com/willvieira/ms_forest-suitable-probability.git
+[submodule "chapter2"]
+	path = chapter2
+	url = https://github.com/willvieira/ms_forest-ipm-sensitivity.git
+[submodule "chapter1"]
+	path = chapter1
+	url = https://github.com/willvieira/ms_STM-managed.git
