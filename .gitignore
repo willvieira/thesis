@@ -1,6 +1,7 @@
 ## Custom
 *.pdf
 TheseRef.tex
+.DS_Store
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
