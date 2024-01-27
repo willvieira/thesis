@@ -38,7 +38,7 @@
 \usepackage{amsmath}             % ajoute des environnements mathématiques
 \usepackage{mathrsfs}		% ajoute une meilleure police calligraphique pour certains symboles
 \usepackage{gensymb}		 % gère les symboles
-\usepackage[x11names,svgnames,table]{xcolor}
+\usepackage{xcolor}
 
 
 %% page en format paysage avec numéro de page en bas, centré 
@@ -76,9 +76,9 @@
      hyperindex=true, 		% ajoute des liens dans les index. 
      colorlinks=true, 		% colore les liens 
      breaklinks=true,		% permet le retour la ligne dans les liens trop longs 
-     urlcolor= Black,  		% couleur des hyperliens (doit inclure x11names dans xcolor ci-dessus)
-     linkcolor= Black, 		% couleur des liens internes 
-     citecolor=Black,		% couleur des liens de citation
+     urlcolor= black,  		% couleur des hyperliens (doit inclure x11names dans xcolor ci-dessus)
+     linkcolor= black, 		% couleur des liens internes 
+     citecolor=black,		% couleur des liens de citation
      bookmarks=true,		% création des signets PDF 
      bookmarksopen=true,	% ouvre les signets PDF au départ 
 }\else\relax\fi
@@ -331,9 +331,9 @@ Université de Sherbrooke\\ \vspace{13mm}
 %\onehalfspacing
 %\setstretch{1.3}\include{chapter1/} 		% ATTENTION "\INPUT" GÉNÈRE LA BIBLIOGRAPHIE COMMUNE À L'INTRODUCTION ET LA CONCLUSION À LA FIN DE LA THÈSE. SINON  								 "\INCLUDE" GÉNÈRE PLUTÔT UNE BIBLIOGRAPHIE À LA FIN DE L'INTRO ET DE LA CONCLUSION. 
 					% SI LA THÈSE EST CLASSIQUE IL N'EST PAS NÉCESSAIRE D'AVOIR UNE LISTE DE RÉFÉRENCES POUR CHAQUE CHAPITRE NUMÉROTÉ
-\setstretch{1.3}\include{chapter1/manuscript_thesis}
-\setstretch{1.3}\include{chapter2/manuscript_thesis}
-\setstretch{1.3}\include{chapter3/manuscript_thesis}
+\setstretch{1.3}\input{chapter1/manuscript_thesis}
+\setstretch{1.3}\input{chapter2/manuscript_thesis}
+\setstretch{1.3}\input{chapter3/manuscript_thesis}
 
 
 %-------------------------------------------------------------------------------

@@ -32,16 +32,3 @@ Checkout all submodule to `main` branches
 # Checkout all submodules on gh-pages branch
 git submodule foreach 'git checkout main'
 ```
-
-## Notes compilation
-
-End of each chapter
-
-```
-\singlespacing
-{\renewcommand{\bibname}{References}
-\renewcommand{\bibsection}{\section{\bibname}}
-\bibliography{bib/chapitre3}}
-\bibliographystyle{styles/myBEAS} 
-
-```
