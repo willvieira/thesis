@@ -17,12 +17,11 @@ git submodule status
 
 ## Update all chapters base on gh-pages
 
-```
-# Fetch remote changes
-git submodule update --recursive --remote
+If you run git submodule update --remote, Git will go into your submodules and fetch and update for you. See: https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
-# Pull all changes from origin/gh-pages branches
-git submodule foreach 'git pull origin gh-pages'
+```
+# Fetch and merge remote changes
+git submodule update --recursive --remote
 ```
 
 ## Extra tips
