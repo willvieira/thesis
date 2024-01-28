@@ -70,14 +70,45 @@
 \raisebox{\hfoot}[0pt][0pt]{\rlap{\hspace{\vfoot}\rotatebox[origin=cB]{90}{\thepage}}}\fi}
 
 %-------------------FIGURES ET TABLEAUX ----------------------------
-\usepackage{subcaption}		 % pour mettre des figures côte à côte 
-\usepackage[format=hang,justification=raggedright,labelfont=bf, singlelinecheck = false, font=bf, labelsep=quad]{caption}	% modifie la manière dont les descriptions de tableaux et figures sont disposées
+%\usepackage{subcaption}		 % pour mettre des figures côte à côte 
+\usepackage{xstring}
+\usepackage{etoolbox}
+\usepackage[labelsep=none]{caption}
+
+
+% FORMAT CAPTION
+% Première phrase en gras et le reste dans un paragraphe en dessous
+\newcommand\firstsentencebold[1]{%
+    \noexpandarg
+    \exploregroups
+    \IfSubStr{#1}{. }{%
+        \StrBefore{#1}{. }[\firstcaptionsentence]%
+        \StrBehind{#1}{. }[\othercaptionsentences]%
+        \textbf{\firstcaptionsentence. }\par{}\smallskip\othercaptionsentences%
+    }{%
+        \textbf{#1.}%
+    }%
+}
+
+\makeatletter
+% Custom caption format based on the original hang format with first sentence bold
+\DeclareCaptionFormat{customhang}{%
+  \caption@iflabelseparatorwithnewline
+    {\caption@Error{%
+       The option `labelsep=\caption@labelsep@name' does not work\MessageBreak
+       with `format=customhang'}}%
+    {\@hangfrom{\textbf{#1#2 }}%
+     \advance\caption@parindent\hangindent\relax
+     \advance\caption@hangindent\hangindent\relax
+     \caption@@par\firstsentencebold{#3}}}
+
+\captionsetup{format=customhang}
+
 \usepackage{epsfig} 			% ajouter et convertir figures .eps. Ne pas mettre l'extension dans le document 
 \usepackage[most]{tcolorbox}
 \usepackage[flushleft]{threeparttable} % notes de bas de tableau 
 \usepackage{adjustbox}			 % gère les gros tableaux 
 \usepackage{tabularx, multirow,booktabs}
-
 
 %------------------COMPILATION PDFLATEX----------------------------
 \newif\ifhyper\hypertrue  	% options PDF. Requiert de compiler avec pdflatex
@@ -110,6 +141,7 @@
 %------------------FORMAT DES CHAPITRES----------------------------
 \pagestyle{plain} 		% Entêtes et pieds % pas d'entête, no de page en bas
 \usepackage{titlesec}	% Format de titres de chapitres, sections et sous-sections
+\usepackage[skip=24pt]{parskip} % Vertical skip entre les paragraphes
 \newcommand\chapterstring{CHAPITRE}
 
 %\titleformat{command to change}[shape of the title]{format of the title}{label of the title}{space between label and title}{code preceding the title body}[code following the title body]
@@ -344,9 +376,9 @@ Université de Sherbrooke\\ \vspace{13mm}
 %\onehalfspacing
 %\setstretch{1.3}\include{chapter1/} 		% ATTENTION "\INPUT" GÉNÈRE LA BIBLIOGRAPHIE COMMUNE À L'INTRODUCTION ET LA CONCLUSION À LA FIN DE LA THÈSE. SINON  								 "\INCLUDE" GÉNÈRE PLUTÔT UNE BIBLIOGRAPHIE À LA FIN DE L'INTRO ET DE LA CONCLUSION. 
 					% SI LA THÈSE EST CLASSIQUE IL N'EST PAS NÉCESSAIRE D'AVOIR UNE LISTE DE RÉFÉRENCES POUR CHAQUE CHAPITRE NUMÉROTÉ
-\setstretch{1.3}\input{chapter1/manuscript_thesis}
-\setstretch{1.3}\input{chapter2/manuscript_thesis}
-\setstretch{1.3}\input{chapter3/manuscript_thesis}
+\setstretch{1.3}\include{chapter1/manuscript_thesis}
+\setstretch{1.3}\include{chapter2/manuscript_thesis}
+\setstretch{1.3}\include{chapter3/manuscript_thesis}
 
 
 %-------------------------------------------------------------------------------
@@ -356,8 +388,9 @@ Université de Sherbrooke\\ \vspace{13mm}
 \appendix
 \renewcommand\chapterstring{ANNEXE}
 \addcontentsline{toc}{chapter}{ANNEXE}
-\setstretch{1.3}\include{annexe1}       
-\setstretch{1.3}\include{annexe2} 
+\setstretch{1.3}\include{chapter1/suppInfo_thesis}
+\setstretch{1.3}\include{chapter2/suppInfo_thesis}
+\setstretch{1.3}\include{chapter3/suppInfo_thesis}
 
 
 %------------------BIBLIOGRAPHIE GÉNÉRALE ----------------------------
