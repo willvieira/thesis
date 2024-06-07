@@ -2,7 +2,8 @@
 *.pdf
 TheseRef.tex
 .DS_Store
-
+introduction.tex
+discussion.tex
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
