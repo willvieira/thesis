@@ -166,7 +166,7 @@ For instance, the integration of niche and neutrality as a continuum concept sho
 Similarly, a combination of niche and neutrality emerged as alternative ways for species to coexist: being sufficiently different or sufficiently similar [@Scheffer2006].
 These combinations of theories open up opportunities for empirical experiments to test whether the emerging patterns are simple mathematical artifacts or whether we are moving toward a unifying theory [@Scheffer2018].
 Another example is the expansion of the four paradigms of the metacommunity theory.
-These paradigms have been expanded in different ways, including integrating evolution [@Urban2008], spatial trophic interactions [@Gravel2011b], and all types of interaction and environmental constraints [@Cazelles2016].
+These paradigms have been expanded in different ways, including integrating evolution [@Urban2008], spatial trophic interactions [@Gravel2011], and all types of interaction and environmental constraints [@Cazelles2016].
 
 Another way to integrate different theoretical approaches is through the transversal view between spatial, temporal and organizational scales [e.g. @Griffith2016].
 The metacommunity concept is a simple approach toward this end [@Leibold2004].
@@ -209,7 +209,7 @@ It means that for process-based models, data is needed for every species modelle
 
 Demography is an ecological process based on individual vital rates such as survival, growth and reproduction; these rates determine population dynamics, which consequently determine the dynamics of the community and so on.
 It means that individual variation has the potential to provide a better understanding across biological, spatial and temporal levels [@Coulson2012].
-In the context of our interest in predicting range dynamics, demography can also be a fundamental mechanism in scaling up local processes, such as the effect of species interaction on the regional range limits [@Normand2014;@Araujo2014].
+In the context of our interest in predicting range dynamics, demography can also be a fundamental mechanism in scaling up local processes, such as the effect of species interaction on the regional range limits [@Normand2014;@Araujo2014a].
 Although demography information can be useful in integrating different organizational and spatial scales, our understanding of how demographic processes vary with abiotic stress is still very limited [@Louthan2015].
 
 Individual rates linked with population fate can be useful both in conservation and resource management as well as in predicting species' range dynamics.
