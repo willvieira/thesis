@@ -47,3 +47,5 @@ pdflatex TheseRef.tex
 
 # clean temp files
 rm *aux; rm *blg; rm *.bbl; rm *.lof; rm *.log; rm *lot; rm *.out; rm *.toc; rm TheseRef.tex; rm TheseRef.log
+rm */*.aux; rm */*.bbl; rm */*.blg
+
