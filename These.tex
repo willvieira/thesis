@@ -84,7 +84,7 @@
     \IfSubStr{#1}{. }{%
         \StrBefore{#1}{. }[\firstcaptionsentence]%
         \StrBehind{#1}{. }[\othercaptionsentences]%
-        \textbf{\firstcaptionsentence. }\par{}\smallskip\othercaptionsentences%
+        \textbf{\firstcaptionsentence. }\smallskip\othercaptionsentences%
     }{%
         \textbf{#1.}%
     }%
