@@ -64,11 +64,11 @@ In fact, this integration could explain whether the range limits of a focal spec
 
 The last two sections describe processes at the population and community scale.
 Relaxing the partial constraint, we move towards the metapopulation and metacommunity scales.
-A metapopulation persists in a balance between local extinction and local colonization over occupied and empty patches connected by migration [@Levins1968].
+A metapopulation persists in a balance between local extinction and local colonization over occupied and empty patches connected by migration [@Levins1969].
 In this case, the configuration of metapopulation dynamics requires only three parameters: colonization, extinction, and habitat availability.
 This kind of simplification is very useful because it allows the inclusion of other mechanisms seamlessly.
 For instance, turning colonization and extinction rates into functions of the environment allows one to determine species' range limits [@Holt2005].
-The metacommunity theory is partially built on the island biogeography [@MacArthur1967] and metapopulation [@Levins1968] theories.
+The metacommunity theory is partially built on the island biogeography [@MacArthur1967] and metapopulation [@Levins1969] theories.
 A metacommunity can be defined as a set of communities linked by dispersal, in which communities are a set of interacting species [@Leibold2004].
 The metacommunity consists of four paradigms [@Leibold2004;@Holyoak2005].
 
