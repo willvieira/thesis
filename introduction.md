@@ -28,9 +28,7 @@ Although it is difficult to visualize n-dimensional space, it is easy to express
 Hutchinson also added two fundamental notions to the niche concept.
 On the one hand, the fundamental niche is the set of conditions in which species have a positive fitness, i.e., where birth rates are larger than death rates.
 On the other hand, the realized niche is actually the place used by the species considering interspecific interactions; it is usually smaller than the fundamental niche [@Hutchinson1957].
-These concepts were major contributions to ecology.
-For instance, this formalized niche concept corroborates the competitive exclusion principle, which states that two species competing for the same limited resource cannot coexist for long.
-Furthermore, ecological niche is a fundamental mechanism to describe coexistence.
+These concepts were major contributions to ecology and became the backbone mechanisms of more complex frameworks, such as the coexistence theory.
 
 ### Coexistence theory
 
@@ -88,16 +86,17 @@ This neutral approach serves as a null hypothesis for other paradigms, acknowled
 ## The drivers of species range limits
 
 Ecologists have dedicated considerable effort to trying to decompose the mechanisms determining species' range limits.
-From an intuitive view of population dynamics, one can define the range limits of a given population according to where its growth rate is bigger or smaller than one rather than by its presence or absence.
+From an intuitive view of population dynamics, one can define the (fundamental) range limits of a given population according to where its growth rate is bigger or smaller than one rather than by its presence or absence.
 In other words, one can determine if a specific area is suitable or not based on demographical quantities [@Pulliam2000].
 In this context, we could decompose the mechanisms determining the intrinsic growth rate and the drivers impacting this vital rate.
 When at low density, a population's intrinsic growth rate is the ratio between birth and death rates plus dispersion, which is the ratio between immigration and emigration.
 Looking at the birth rate, the range limits of long-lived species may be shaped by sporadic successful reproduction events [@Gaston2009].
 For instance, red maple distributed in a latitudinal gradient presents more irregularity in recruitment in northern localities compared with southern ones [@Tremblay2002].
-The other component is the mortality rate, the most explored mechanism when studying species' range limits, and it is usually addressed only for adult organisms [@Gaston2009].
-However, mortality in regeneration may be more important in shaping species adaptation [@Poorter2007], and hence in defining range limits.
-Indeed, even if the arrival of propagules is constant through dispersion, when the mortality rate in regeneration is higher than the survival rate, the area will not be suitable for the species.
-On the other hand, in an area where a positive growth rate is possible, population growth will still depend on the arrival of propagules through dispersion.
+The other component is the mortality rate, the most explored mechanism when studying species' range limits.
+Although previous studies mainly concentrated on the adult life stage [@Gaston2009], new studies are focusing on seedling and sapling mortality.
+This is because mortality in regeneration may be more critical in shaping species adaptation [@Poorter2007] and, hence, in defining range limits.
+For instance, even if the arrival of propagules is constant through dispersion, when the mortality rate in regeneration is higher than the survival rate, the area will not be suitable for the species.
+On the other hand, in an area where a positive growth rate is possible, the presence of the species will still depend on the arrival of propagules through dispersion.
 Surely, the above decomposition of mechanisms determining population growth rate and hence range limits may be simplistic if we do not regard temporal and spatial variation.
 
 Adding a gradient of spatial and temporal variability, but also scaling the population processes up to the metapopulation level are however essential to understand the possible mechanisms determining range limits.
@@ -107,15 +106,15 @@ Another important process, as cited before, is the potential of demographic stoc
 For instance, strong density-dependence makes species stop growing at low density; however, at low population size, the risk of stochastic extinction is higher.
 Finally, even if the growth rate is positive in an available area, temporal variability may play an important role in species extinction risk [@Holt2005].
 Indeed, models of tree growth had better estimates when incorporating extreme climatic events than models using average values [@Sangines2017].
-Niche limitation, low population size and temporal variability are the dominant factors determining species' range, but only when dispersal is very rare.
+However, these factors are only relevant with the assumption that dispersal is low or nonexistent.
 Relaxing the assumption that dispersal is not rare, we can now scale these population processes up to a metapopulation perspective.
 First, dispersal constraints play a major role in range limits; if a suitable area is unoccupied it is probably because individuals have not managed to get there [@Gaston2009].
 Further than helping species expand, dispersion may also play a role in the extinction risk due demographic and environmental stochasticity, as it helps increase the population size when it is low, in which the risk of extinction is greater.
 Towards a metapopulation perspective, @Holt2000 conceptualized three routes of species' range limits gradient based on (i) habitat availability, (ii) extinction rates and (iii) colonization rates.
-For instance, they have shown that in a gradient of habitat availability ($K$) and for a constant extinction/colonization ratio ($e/c$), species will be present when $K > e/c$.
+For instance, they have shown that in a gradient of habitat availability ($K$ that can vary from 0, meaning no availability, to 1 where all landscape is available) and for a constant extinction/colonization ratio ($e/c$), species will be present when $K > e/c$.
 This approach synthesizes the interactions between population mechanisms determining species distribution limit, but also emphasizes the need to consider demographic information to determine range limits. [@Holt2000;@Holt2005].
 
-Climate and species interactions seem to be important drivers of species' range limits, although the underlying mechanisms remain unclear.
+Climate and species interactions are undoubtedly important drivers of species' range limits.
 Comprehending the impact of climate variation on population dynamics is extremely important given the current need for precise forecasts, but it is also difficult to track when climate may impact many of the processes described above.
 A great source of uncertainty in this prediction is the possible side effect of species interaction [@Adler2012].
 For instance, climate variation affecting one species' abundance will indirectly affect another species due to changes in interaction strength [@Gilman2010].
@@ -128,7 +127,7 @@ In any case, the controversy over the importance of species interaction in shapi
 
 In the direction of a precise formalization of what most determines the range limits of a focal species, @Godsoe2017 has proposed that the integration of coexistence theory and biogeography allows a better understanding of how biotic interactions shape species’ range limits.
 Local coexistence can be seen through the lens of modern coexistence theory and contemporary niche theory.
-Based on the growth rate of a species (difference between birth and death rates; (Figure @fig:godsoe2017 A), the fundamental niche of a focal-rare species is determined by the sign of its growth rate, $r(E,R)$, which varies with the environment $E$ and the resource $R$.
+Based on the growth rate of a species (difference between birth and death rates; (Figure @fig:godsoe2017 A), the fundamental niche of a focal species is determined by the sign of its growth rate when the species is rare, $r(E,R)$, which varies with the environment $E$ and the resource $R$.
 Typically, it is given by: $r(E,\,R) = birth(E,\,R) - death(E,\,R) > 0$.
 The contemporary niche theory adds an interaction factor $I(E,\,C)$ impacting the focal species growth rate, where $C$ is a vector containing the abundances of each affecting species: $r(E,\,R)\,+\,I(E,\,C) > 0$.
 The interaction factor can be decomposed into two factors: the average interaction strength of the competing species on the focal species and the covariance of the interaction depending on species density [@Godsoe2017].
@@ -171,13 +170,11 @@ These paradigms have been expanded in different ways, including integrating evol
 Another way to integrate different theoretical approaches is through the transversal view between spatial, temporal and organizational scales [e.g. @Griffith2016].
 The metacommunity concept is a simple approach toward this end [@Leibold2004].
 Formalizing the feedback interactions between local-scale processes, such as species interaction, and regional-scale processes, such as dispersal, has been essential in advancing our understanding of species distribution.
-This and other approaches have conceptually linked different theories, but what is still needed is a quantitative and flexible framework to connect all these scales [@Normand2014;@Griffith2016;@Cabral2016].
-Demography can be placed in the middle of these three scaling axes and serve as a connection link between these ecological and evolutionary processes [Figure @fig:grif2016, @Griffith2016].
+This and other approaches have conceptually linked different theories, but a quantitative and flexible framework to connect all these scales remains unknown [@Normand2014;@Griffith2016;@Cabral2016].
+Demography can be placed in the middle of these three scaling axes and serve as a connection between these ecological and evolutionary processes [Figure @fig:grif2016, @Griffith2016].
 Changes in a species' demographic rates can result from its spatiotemporal niche, which is mostly determined by abiotic and biotic drivers [@Schurr2012;@Merow2014].
-With this link established, we can scale the demographic rates up to a regional level to determine species distribution.
-To solve the problem of scaling up local-scale interactions to regional dynamics, @Chesson2005 proposed the scale transition theory.
-This approach analyzes the difference between local and regional population growth rates as a response to biotic interactions and dispersal among regional populations.
-The link between community ecology and broad-scale range limits still needs to be established, and it can be fully tested through this approach [@Godsoe2017].
+In consequence, the variation in these local-scale demographic rates should affect the species range limits at the regional scale.
+Multiple approaches have been proposed to link processes at different scales, such as the demographic range models [@maguire1973niche;@holt2009] and the proposed the scale transition theory [@Chesson2005].
 
 ![Cross-scale interaction from a demographic perspective [@Griffith2016]. (a) Demographical processes are situated in the middle of several scaling axes and can serve as a connection between various ecological and evolutionary processes. Demography can inform and be informed in different research areas and scales, as shown in (b) and (c).](fig/Griffith2016.png){#fig:grif2016 short-caption="Cross-scale interaction from a demographic perspective [@Griffith2016]."}
 
@@ -221,7 +218,7 @@ Both the population trends and the individual process rate may be useful in prac
 The fact that each stage plays a role in the population dynamic allows one to test the effect of different management intensities at each stage of life on the long-term fate of a population.
 In that case, we can quantitatively measure the demographic rate at the scale that interests us, such as the scale at which management is applied. [@Vance2010].
 Another application of structured population models is to determine the effect of demographic rates on range dynamics.
-Assuming the regeneration success depends on seedling recruitment [@Clark2011] and that the niche occupancy of the seedlings is narrower than the niche of the adults [@Jackson2009], a mechanistic understanding of individual rates will then predict more accurately species' range dynamics.
+Assuming the regeneration success depends on seedling recruitment and that the niche occupancy of the seedlings can differ from the niche of the adults [@Jackson2009;@Ni2021], a mechanistic understanding of individual rates will then predict more accurately species' range dynamics.
 
 Structured population models can be mathematically formalized in many ways, although one method appears to be more recurrent in plant species.
 Individuals can be ranked into categories (usually size for plants), and mathematical rules describe their movement through their life cycle [@Caswell1997].
