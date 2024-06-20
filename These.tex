@@ -6,6 +6,7 @@
 % Ce code produit TheseRef.pdf qui inclut chaque bibliographie par chapitre et la bibliographie générale. 
 
 \documentclass[12pt,oneside]{book}
+\setcounter{secnumdepth}{3}
 \usepackage[a-1b]{pdfx}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -204,6 +205,9 @@
 
   }%
 }
+
+% 
+\setcounter{tocdepth}{3}
 
 % pour les annexes : ne pas inclure les numéros de sections dans la TOC mais garder la numérotation pour les figures 
 \appto\appendix{\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}}
