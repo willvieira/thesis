@@ -1,6 +1,6 @@
 \chapter{\textbf{  INTRODUCTION}}
 
-## Theoretical framework of species distribution
+# Theoretical framework of species distribution
 
 Why is species $x$ distributed here and not there?
 More specifically, which drivers determine the range limit of the distribution we see?
@@ -10,7 +10,7 @@ One answer lies in the complexity of mechanisms affecting a species' arrival and
 Three of the most cited factors in the literature shaping species' distribution are the abiotic environment, capacity of species to disperse and biotic interactions [@Guisan2017].
 But a remaining question in ecology so far is which of these factors are most important in determining the geographical range of species and under which conditions [e.g. @Peterson2011;@Chase2003].
 
-### The niche concept
+## The niche concept
 
 The niche has intrigued ecologists for almost a century.
 @Grinnell1917 first linked the restricted range distribution of the California trashier with temperature and moisture.
@@ -30,7 +30,7 @@ On the one hand, the fundamental niche is the set of conditions in which species
 On the other hand, the realized niche is actually the place used by the species considering interspecific interactions; it is usually smaller than the fundamental niche [@Hutchinson1957].
 These concepts were major contributions to ecology and became the backbone mechanisms of more complex frameworks, such as the coexistence theory.
 
-### Coexistence theory
+## Coexistence theory
 
 Ecologists have long tried to understand how competing species can coexist in the same environment.
 Starting with the classical Lotka-Volterra model of predator-pray [@Lotka1925;@Volterra1926], coexistence seems to be possible only when intraspecific competition is stronger than interspecific competition.
@@ -60,7 +60,7 @@ For instance, species coexistence can be used to determine when biotic interacti
 Furthermore, parsing species growth rates into equalizing and stabilizing mechanisms at a local scale may improve our understanding of the mechanisms underlying species range limits [@Alexander2018].
 In fact, this integration could explain whether the range limits of a focal species in determined either by reduced ability to compete or by the increase in niche overlap.
 
-### The metapopulation and metacommunity theories
+## The metapopulation and metacommunity theories
 
 The last two sections describe processes at the population and community scale.
 Relaxing the partial constraint, we move towards the metapopulation and metacommunity scales.
@@ -83,7 +83,7 @@ It balances local asymmetric competition at the regional scale, increasing regio
 Lastly, the neutral paradigm challenges the assumption of species differentiation by considering all species equal in colonization and extinction rates [@Hubbell2001].
 This neutral approach serves as a null hypothesis for other paradigms, acknowledging the potential dynamic nature of communities where species may exhibit functional equivalency. While each paradigm offers valuable insights, combining different approaches may lead to the emergence of novel theories, such as the integration between niche and neutrality [@Gravel2006;@Scheffer2006].
 
-## The drivers of species range limits
+# The drivers of species range limits
 
 Ecologists have dedicated considerable effort to trying to decompose the mechanisms determining species' range limits.
 From an intuitive view of population dynamics, one can define the (fundamental) range limits of a given population according to where its growth rate is bigger or smaller than one rather than by its presence or absence.
@@ -125,7 +125,7 @@ Thus, both climate and species interactions may shape range limits; however, kno
 Although there is still little evidence of the effect of species interaction on range limits, @Wisz2013 reviewed many examples of positive and negative impacts of species interactions across and within trophic levels.
 In any case, the controversy over the importance of species interaction in shaping species' range limits and its interaction with climate still exists; we need thus a more appropriate formalization.
 
-In the direction of a precise formalization of what most determines the range limits of a focal species, @Godsoe2017 has proposed that the integration of coexistence theory and biogeography allows a better understanding of how biotic interactions shape species’ range limits.
+In the direction of a precise formalization of what most determines the range limits of a focal species, @Godsoe2017 has proposed that the integration of coexistence theory and biogeography allows a better understanding of how biotic interactions shape species' range limits.
 Local coexistence can be seen through the lens of modern coexistence theory and contemporary niche theory.
 Based on the growth rate of a species (difference between birth and death rates; (Figure @fig:godsoe2017 A), the fundamental niche of a focal species is determined by the sign of its growth rate when the species is rare, $r(E,R)$, which varies with the environment $E$ and the resource $R$.
 Typically, it is given by: $r(E,\,R) = birth(E,\,R) - death(E,\,R) > 0$.
@@ -140,7 +140,7 @@ Similarly, even if the negative impact of species interaction is constant, it ca
 ![Impact of population rate and species interaction in shaping species distribution through determining range limits [@Godsoe2017]. (A) In the absence of biotic interactions, the result of birth rates and death rates along an environmental gradient defines fundamental range limits. The theoretical presence of species occurs when the birth rate is bigger than the death rate, in other words, when growth is bigger than 0. (B) Assuming the growth rate is constant along an environmental gradient, species interaction creates the boundary between fundamental and realized niche. A fundamental niche occurs when the growth rate is bigger than 0, but the effect of species interaction is larger than the growth rate. Realized niche occurs when the growth rate overcomes the negative impact of species interaction. (C) Shows that even if species interaction is constant along the gradient, it can still determine the boundary between fundamental and realized niche.](fig/Godsoe2017.png){#fig:godsoe2017 short-caption="Impact of population rate and species interaction in shaping species distribution through determining range limits [@Godsoe2017]."}
 
 Although the theoretical framework proposed by @Godsoe2017 is elegant and robust, it also makes coarse assumptions for which more work is needed.
-Their first assumption, known as the distance–abundance relationship, stipulates that species abundance is lower at range limits compared with the center of the niche.
+Their first assumption, known as the distance-abundance relationship, stipulates that species abundance is lower at range limits compared with the center of the niche.
 Although often classified as a general rule, empirical data of many taxa showed that species are not actually most abundant in the centre of their geographic or niche range [@Dallas2017].
 Another hypothesis comes from the effect of growth rate and species interaction in the fundamental and realized niches.
 First, @Godsoe2017 claim that we should focus on the effect of $r(E,\, R)$ relative to $I(E,\,C)$, and on how both of these factors vary across environmental gradients.
@@ -154,7 +154,7 @@ However, this approach has rarely been explored using multiple components [@Lout
 Finally, experimental tests of this theory have never been empirically investigated.
 For that, this approach demands information on the stochastic demographic rate of multiple species, with and without interaction, occurring along an environmental gradient.
 
-## Towards an integrative theoretical approach
+# Towards an integrative theoretical approach
 
 The theories and mechanisms detailed above all aim to achieve a better understanding of the factors determining the abundance and distribution of species.
 We have seen that the factors affecting the distribution of species range from abiotic, like climate, to biotic, such as species interactions.
@@ -178,9 +178,9 @@ Multiple approaches have been proposed to link processes at different scales, su
 
 ![Cross-scale interaction from a demographic perspective [@Griffith2016]. (a) Demographical processes are situated in the middle of several scaling axes and can serve as a connection between various ecological and evolutionary processes. Demography can inform and be informed in different research areas and scales, as shown in (b) and (c).](fig/Griffith2016.png){#fig:grif2016 short-caption="Cross-scale interaction from a demographic perspective [@Griffith2016]."}
 
-## Predicting species distribution under climate change
+# Predicting species distribution under climate change
 
-### Species distribution models
+## Species distribution models
 
 Species distribution models (SDMs) are one of the most popular approaches to predicting species distribution, and they have a wide range of applications, such as in biodiversity conservation and management [@Guisan2013;@Rodriguez2007].
 SDMs are typically a statistical model measuring the correlation between species observation data and environmental descriptors such as temperature and precipitation [@Guisan2013].
@@ -190,7 +190,7 @@ However, as SDMs usually only account for occurrence data, without information o
 Despite the utility of SDMs (e.g. biodiversity conservation), the lack of ecological theories in representing ecological processes limits the predictive capacity of SDMs [@Austin2002].
 To try to overcome the lack of ecological processes considered in most of SDMs, ecologists are increasingly using process-based models.
 
-### Process-based modeling
+## Process-based modeling
 
 Unlike SDMs, which are mostly correlative, process-based models are the modelling approach that explicitly considers ecological processes driven by the subject model.
 Although there is confusion between the terms mechanistic- and process-based models, there is a consensus that both are synonyms [e.g. @Cabral2016;@Evans2016], but see @Connolly2017.
@@ -202,7 +202,7 @@ On the one hand of the gradient, correlative models such as SDMs use species inf
 On the other hand, process-based models, such as the demographic range model, use individual information, such as demographic rates, to model a single species in a small area.
 It means that for process-based models, data is needed for every species modelled.
 
-### Demographic range models
+## Demographic range models
 
 Demography is an ecological process based on individual vital rates such as survival, growth and reproduction; these rates determine population dynamics, which consequently determine the dynamics of the community and so on.
 It means that individual variation has the potential to provide a better understanding across biological, spatial and temporal levels [@Coulson2012].
@@ -264,7 +264,7 @@ In fact, this is possible because when we solve the kernel, we are actually disc
 With this matrix, we can analyze the long-term intrinsic growth rate and the population dynamic by examining the dominant eigenvalue $\lambda$ [@Easterling2000;@Ellner2006].
 From $\lambda$, we can estimate species' range limits by the conditions that make $\lambda$ positive [@Holt2005].
 
-## Research objective
+# Research objective
 
 In this thesis, we are interested in exploring the several factors driving species range limits.
 We used a cross-scale approach based on the theoretical framework described above.

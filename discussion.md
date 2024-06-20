@@ -1,6 +1,6 @@
 \chapter{\textbf{  CONCLUSION ET DISCUSSION}}
 
-## Thesis Synthesis
+# Thesis Synthesis
 
 In this chapter, I will briefly discuss the main contributions of my thesis derived from each of these chapters and their integration.
 Finally, I will outline some future perspectives I would love to explore following this project if I still had the freedom I had during my PhD.
@@ -38,7 +38,7 @@ Nonetheless, I believe that fully integrating model uncertainty with spatiotempo
 Beyond the scientific implications, developing these models finally allowed me to understand and enjoy statistics.
 The second main contribution, building upon our modelling approach, is the proposal of a novel framework that reconciles two established theories.
 
-### Tracking uncertainty
+## Tracking uncertainty
 
 Uncertainty is a fundamental aspect of ecological studies and cannot be overlooked [@MilnerGulland2017a].
 In an ideal scientific scenario, the goal is to transition variance from unknown to known components within the model.
@@ -64,7 +64,7 @@ Specifically, our models must be extended to include temporal random effects tha
 From late-night explorations with a geek friend (Andrew), we ran a hierarchical model with spatial and temporal random effects to find that there is a significant amount of variation in survival and recruitment that is explained by the temporal effect.
 This is ecologically not surprising; for instance, species with more dispersed seeds are likely to have higher recruitment rates because they are favoured from good years [@Clark2018], a trend further emphasized when considering autocorrelation [@Schreiber2010].
 
-### Integration of scales
+## Integration of scales
 
 @Levin1992 argues that *a key to prediction and understanding lies in the elucidation of mechanisms underlying observed patterns*.
 He then states that an observed pattern usually emerges from mechanisms operating at a different scale.
@@ -92,7 +92,7 @@ In Chapter 2, we expanded a forest model to incorporate the effect of forest man
 While plantation (driven by colonization) and harvest (extinction) occur at the patch level, enrichment planting (invasion) and thinning (exclusion) operate at a more individual level.
 Therefore, we could better simulate the effect of enrichment planting and thinning on range shift by manipulating the parameters of the IPM and quantifying their effect on local suitable probability.
 
-## Future perspectives
+# Future perspectives
 
 During this project, I had many ideas.
 The issue was not that they were mostly not great; it was more about deciding when the analysis was good enough to stop doing new ones.
