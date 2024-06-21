@@ -53,9 +53,9 @@ We include these two sources of process uncertainty for each of the growth, surv
 This is, to my knowledge, the first time it has been done for the survival and recruitment components of tree species.
 
 Moreover, we not only acknowledged but also embraced the information associated with these sources of uncertainty.
-In Chapter 4, we used spatially clustered process uncertainty linked to each plot and incorporated spatiotemporal variation in covariates.
-This thorough integration of multiple sources of variability enhanced our understanding of forest dynamics.
-In Chapter 3, we used a random forest approach to quantify the sensitivity of $\lambda$ to each of the growth, survival, and recruitment models, accounting not only for the sensitivity to a component but also for the underlying uncertainty of the component. 
+In Chapter 4, we used spatially clustered uncertainty linked to each plot and incorporated spatiotemporal variation in covariates.
+This integration of multiple sources of variability enhanced our understanding of forest dynamics.
+In Chapter 3, we used a random forest approach to quantify the sensitivity of $\lambda$ to each of the growth, survival, and recruitment models, accounting for both the sensitivity to a component and the underlying uncertainty of the component. 
 Moreover, it was important to take into account the process uncertainty at both the individual and plot levels when evaluating the sensitivity of $\lambda$ to each of the covariates.
 We call for studies to carefully structure the different sources of variance at their specific scale, allowing one to explore new insight emerging from these structures [e.g. @Leite2023].
 
@@ -68,7 +68,7 @@ This is ecologically not surprising; for instance, species with more dispersed s
 
 @Levin1992 argues that *a key to prediction and understanding lies in the elucidation of mechanisms underlying observed patterns*.
 He then states that an observed pattern usually emerges from mechanisms operating at a different scale.
-This premise underpins the theory that a species' range limits stem from local-scale demographic rates [@maguire1973niche;@Holt2009], which forms the foundation of this thesis.
+This premise underpins the theory that a species' range limits stem from local-scale demographic rates [@maguire1973niche], which forms the foundation of this thesis.
 Rarely, however, is this idea contested.
 For instance, physicist P. W. Anderson once stated that *the ability to reduce everything to simple fundamental laws does not imply the ability to start from those laws and reconstruct the universe* [@Anderson1972].
 Therefore, even if all processes on Earth are subject to an underlying mechanism to be unravelled (e.g. @Clark2010), we should focus on the processes close to the problem.
@@ -78,7 +78,7 @@ This is similar to the niche versus neutrality debate, which is ultimately resol
 Despite the scale-dependent predictability of processes, integrating different scales offers valuable insights.
 Forest models, for instance, leverage physiological processes to forecast forest productivity [@Landsberg1997].
 Similarly, ecosystem demographic models scale individual processes to regional dynamics using differential equations to approximate (i.e., ignore) individual-level details [@Moorcroft2001].
-In this thesis, demographic rates serve as the basis for predicting population-level performance [@maguire1973niche;@Holt2009].
+In this thesis, demographic rates serve as the basis for predicting population-level performance [@maguire1973niche].
 In particular, in Chapter 3, we elucidate the relative impact of climate and competition on tree performance across their range.
 Furthermore, by leveraging each species' performance variability and uncertainty to assess their local suitable probability, we extended the integration of individual-level rates to the metapopulation scale.
 

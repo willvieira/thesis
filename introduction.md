@@ -8,7 +8,7 @@ These questions have been addressed for a long time, e.g., in Wallace's book *Th
 But how can a simple question remain unsolved for so long and still guide a variety of work?
 One answer lies in the complexity of mechanisms affecting a species' arrival and persistence in a given region.
 Three of the most cited factors in the literature shaping species' distribution are the abiotic environment, capacity of species to disperse and biotic interactions [@Guisan2017].
-But a remaining question in ecology so far is which of these factors are most important in determining the geographical range of species and under which conditions [e.g. @Peterson2011;@Chase2003].
+But a remaining question in ecology is which of these factors are most important in determining the geographical range of species and under which conditions [e.g. @Peterson2011;@Chase2003].
 
 ## The niche concept
 
@@ -250,9 +250,9 @@ $${#eq:kernel}
 Both survivals, followed by possible size change and per-capita fecundity, form what we call the kernel function, which plays the same role as the projection matrix in equation Equation @eq:mpm.
 The simple IPM is then the product of the kernel function with the size distribution at time $t$ to determine the population at time $t + 1$, for all possible sizes $\Omega$:
 
-\begin{align}\label{eq:ipm}
+$$
   n(z', t + 1) = \int_{\Omega} \, k(z', z)\, n(z, t)\, \mathrm{d}z
-\end{align}
+$${#eq:ipm}
 
 This continuous stage approach has multiple advantages.
 While matrix models have to arbitrarily divide continuous variables into discrete classes, the IPM overcomes this challenge, allowing the model to consider individual variation for the whole population.
