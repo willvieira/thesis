@@ -18,6 +18,9 @@ pandoc discussion.md -o discussion.tex \
     --number-sections \
     --natbib
 
+# add double backslash to introduction and discussion files
+Rscript double_break.R
+
 # clean temp files
 rm *aux; rm *blg; rm *.bbl; rm *.lof; rm *lot; rm *.out; rm *.toc
 rm */*aux; rm */*blg; rm */*.bbl
