@@ -210,7 +210,7 @@
 \setcounter{tocdepth}{3}
 
 % pour les annexes : ne pas inclure les numéros de sections dans la TOC mais garder la numérotation pour les figures 
-\appto\appendix{\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}}
+% \appto\appendix{\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}}
 
 % reinstate the correct level for list of tables and figures
 \appto\listoffigures{\addtocontents{lof}{\protect\setcounter{tocdepth}{1}}}
@@ -275,7 +275,7 @@ de l'obtention du grade de docteur ès sciences (Ph.D.)\\
 FACULTÉ DES SCIENCES\\
 UNIVERSITÉ DE SHERBROOKE\\  \vspace{1.5cm}
 \vfill
-Sherbrooke, Québec, Juin 2024
+Sherbrooke, Québec, juin 2024
 }
 
 \end{center}
@@ -325,7 +325,8 @@ Université de Sherbrooke\\ \vspace{13mm}
 
 %------------------REMERCIEMENTS ----------------------------
 \blankpage
-%\onehalfspacing
+\pagenumbering{roman}	% en chiffre romain
+\setcounter{page}{6}
 \setstretch{1.3} 		% un peu plus que 1.5 pour que ça concorde avec Word
 \chapter*{REMERCIEMENTS} 
 \input{remerciements}
@@ -333,9 +334,6 @@ Université de Sherbrooke\\ \vspace{13mm}
 %------------------SOMMAIRE ----------------------------
 %\parskip 1.2in % added by me
 \blankpage	% commenter si vous ne souhaitez pas une page impaire ici
-
-\pagenumbering{roman}	% en chiffre romain
-\setcounter{page}{9} 		% ATTN spécifier manuellement où commence la numérotation des pages APRÈS LES REMERCIEMENTS et SELON LES PAGES BLANCHES
 \chapter*{SUMMARY}
 \input{summary}
 \chapter*{SOMMAIRE}
